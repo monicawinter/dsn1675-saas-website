@@ -42,3 +42,90 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+header nav {
+  text-align: right;
+}
+
+nav {
+  color: white;
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.masthead {
+  text-align: center;
+  background-image: url("../images/blue-street.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1em;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+}
+
+p {
+  margin: 0;
+}
+
+.button {
+  background-color: black;
+  color: white;
+}
+
+.button2 {
+  background-color: #28B4E2;
+  color: white;
+}
+
+footer {
+  text-align: center;
+}
+
+@media only screen and (min-width: 17em) {
+
+  .masthead {
+    padding: 2em;
+  }
+
+}
+
+@media only screen and (min-width: 23em) {
+
+  .masthead {
+    padding: 3.9em;
+  }
+
+}
+
+@media only screen and (min-width: 27em) {
+
+  .masthead {
+    padding: 5.2em;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .masthead {
+    padding: 7.75em;
+  }
+
+}
+
+@media only screen and (min-width: 56em) {
+
+  .masthead {
+    padding: 12.75em;
+  }
+
+}
