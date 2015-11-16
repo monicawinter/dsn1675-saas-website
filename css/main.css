@@ -44,9 +44,9 @@ html {
 }
 
 .logo {
-  width: 12%;
   position: relative;
   float: left;
+  height: 80px;
 }
 
 header nav {
@@ -94,11 +94,16 @@ p {
   margin: 0;
 }
 
+h2 {
+  margin: 0;
+}
+
 .button {
   background-color: black;
   color: white;
   max-width: 300px;
   margin: 0;
+  text-align: center;
 }
 
 .button2 {
