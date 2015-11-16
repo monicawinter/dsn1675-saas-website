@@ -43,8 +43,16 @@ html {
   box-sizing: inherit;
 }
 
+.logo {
+  width: 12%;
+  position: relative;
+  float: left;
+}
+
 header nav {
   text-align: right;
+  background-color: black;
+  position: absolute;
 }
 
 nav {
@@ -61,6 +69,11 @@ ul {
 a {
   color: white;
   text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #B1B3B6;
+  padding: 1em;
 }
 
 .masthead {
