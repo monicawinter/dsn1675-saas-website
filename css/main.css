@@ -58,13 +58,18 @@ ul {
   padding: 0;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .masthead {
   text-align: center;
   background-image: url("../images/blue-street.jpg");
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 1em;
+  padding: 0.5em;
 }
 
 h1 {
@@ -79,11 +84,15 @@ p {
 .button {
   background-color: black;
   color: white;
+  max-width: 300px;
+  margin: 0;
 }
 
 .button2 {
   background-color: #28B4E2;
   color: white;
+  text-align: center;
+  max-width: 300px;
 }
 
 footer {
@@ -93,7 +102,7 @@ footer {
 @media only screen and (min-width: 17em) {
 
   .masthead {
-    padding: 2em;
+    padding: 1em;
   }
 
 }
@@ -101,7 +110,7 @@ footer {
 @media only screen and (min-width: 23em) {
 
   .masthead {
-    padding: 3.9em;
+    padding: 3em;
   }
 
 }
@@ -109,7 +118,7 @@ footer {
 @media only screen and (min-width: 27em) {
 
   .masthead {
-    padding: 5.2em;
+    padding: 4.25em;
   }
 
 }
@@ -117,7 +126,7 @@ footer {
 @media only screen and (min-width: 38em) {
 
   .masthead {
-    padding: 7.75em;
+    padding: 6.5em;
   }
 
 }
@@ -125,7 +134,7 @@ footer {
 @media only screen and (min-width: 56em) {
 
   .masthead {
-    padding: 12.75em;
+    padding: 11.9em;
   }
 
 }
