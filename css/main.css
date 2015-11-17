@@ -53,6 +53,10 @@ html {
   height: 255px;
 }
 
+.header2 {
+  height: 255px;
+}
+
 header nav {
   text-align: right;
   background-color: black;
@@ -104,12 +108,16 @@ nav li a:hover {
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 16em;
+  padding-top: 17.3em;
 }
 
 h1 {
   margin: 0;
   color: white;
+}
+
+.blue {
+  color: #28B4E2;
 }
 
 .otr {
@@ -121,6 +129,11 @@ h1 {
   bottom: 148px;
   position: relative;
   color: #28B4E2;
+}
+
+.otr3 {
+  bottom: 139px;
+  position: relative;
 }
 
 p {
@@ -154,6 +167,22 @@ h2 {
   text-align: center;
 }
 
+.price1 {
+  border-color: #B1B3B6;
+  border-style: solid;
+  border-width: medium;
+}
+
+.price2 {
+  background-color: #28B4E2;
+}
+
+.price3 {
+  border-color: #B1B3B6;
+  border-style: solid;
+  border-width: medium;
+}
+
 footer {
   text-align: center;
 }
@@ -168,7 +197,15 @@ footer {
     padding-top: 19em;
   }
 
+  .masthead3 {
+    padding-top: 18.5em;
+  }
+
   .header1 {
+    height: 272px;
+  }
+
+  .header2 {
     height: 272px;
   }
 
@@ -196,7 +233,15 @@ footer {
     padding-top: 20em;
   }
 
+  .masthead3 {
+    padding-top: 19em;
+  }
+
   .header1 {
+    height: 297px;
+  }
+
+  .header2 {
     height: 297px;
   }
 
@@ -224,7 +269,15 @@ footer {
     padding-top: 22.5em;
   }
 
+  .masthead3 {
+    padding-top: 21em;
+  }
+
   .header1 {
+    height: 332px;
+  }
+
+  .header2 {
     height: 332px;
   }
 
@@ -249,6 +302,10 @@ footer {
     height: 357px;
   }
 
+  .header2 {
+    height: 357px;
+  }
+
 }
 
 
@@ -262,7 +319,15 @@ footer {
     padding-top: 25.5em;
   }
 
+  .masthead3 {
+    padding-top: 25.5em;
+  }
+
   .header1 {
+    height: 500px;
+  }
+
+  .header2 {
     height: 500px;
   }
 
@@ -290,7 +355,15 @@ footer {
     padding-top: 34.5em;
   }
 
+  .masthead3 {
+    padding-top: 34.5em;
+  }
+
   .header1 {
+    height: 670px;
+  }
+
+  .header2 {
     height: 670px;
   }
 
