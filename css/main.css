@@ -49,6 +49,10 @@ html {
   height: 80px;
 }
 
+.header1 {
+  height: 255px;
+}
+
 header nav {
   text-align: right;
   background-color: black;
@@ -85,6 +89,24 @@ nav li a:hover {
   padding-top: 16em;
 }
 
+.masthead2 {
+  text-align: center;
+  background-image: url("../images/bwstreet.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 18.4em;
+}
+
+.masthead3 {
+  text-align: center;
+  background-image: url("../images/blue-city.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 16em;
+}
+
 h1 {
   margin: 0;
   color: white;
@@ -93,6 +115,12 @@ h1 {
 .otr {
   bottom: 79px;
   position: relative;
+}
+
+.otr2 {
+  bottom: 148px;
+  position: relative;
+  color: #28B4E2;
 }
 
 p {
@@ -136,6 +164,14 @@ footer {
     padding-top: 16.75em;
   }
 
+  .masthead2 {
+    padding-top: 19em;
+  }
+
+  .header1 {
+    height: 272px;
+  }
+
   .otr {
     bottom: 88px;
   }
@@ -154,6 +190,14 @@ footer {
 
   .masthead {
     padding-top: 17em;
+  }
+
+  .masthead2 {
+    padding-top: 20em;
+  }
+
+  .header1 {
+    height: 297px;
   }
 
   .otr {
@@ -176,6 +220,14 @@ footer {
     padding-top: 20em;
   }
 
+  .masthead2 {
+    padding-top: 22.5em;
+  }
+
+  .header1 {
+    height: 332px;
+  }
+
   .otr {
     bottom: 100px;
   }
@@ -190,10 +242,28 @@ footer {
 
 }
 
+
+@media only screen and (min-width: 31em) {
+
+  .header1 {
+    height: 357px;
+  }
+
+}
+
+
 @media only screen and (min-width: 38em) {
 
   .masthead {
     padding-top: 23em;
+  }
+
+  .masthead2 {
+    padding-top: 25.5em;
+  }
+
+  .header1 {
+    height: 500px;
   }
 
   .otr {
@@ -214,6 +284,14 @@ footer {
 
   .masthead {
     padding-top: 33em;
+  }
+
+  .masthead2 {
+    padding-top: 34.5em;
+  }
+
+  .header1 {
+    height: 670px;
   }
 
   .otr {
