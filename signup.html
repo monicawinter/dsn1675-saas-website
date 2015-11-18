@@ -16,9 +16,14 @@
 
 <body>
 
-<header class="grid grid-middle unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-  <nav class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter">
-    <a href="index.html"><img src="images/blue-logo.svg" class="logo pad-t-1-2 pad-b-1-2" alt="#"></a>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+<header class="grid grid-middle unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1" role="banner">
+  <nav class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter" role="navigation" id="nav">
+    <a href="index.html"><img src="images/blue-logo.svg" class="logo pad-t-1-2 pad-b-1-2" alt="on the run"></a>
 
     <ul class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 list-group--inline">
       <li class="micro push-right-half pad-top pad-bottom"><a href="tour.html">TOUR</a></li>
@@ -28,7 +33,7 @@
     </ul>
   </nav>
 </header>
-<main class="main1 push">
+<main class="main1 push" role="main" id="main">
 
   <h1 class="blue create push">CREATE YOUR ON THE RUN ACCOUNT</h1>
 
@@ -89,7 +94,7 @@
   </form>
 </main>
 <footer class="footer1">
-  <nav class="gutter">
+  <nav class="gutter" role="navigation">
     <ul class="list-group--inline">
       <li class="micro pad-top push-right-half"><a href="tour.html">TOUR</a></li>
       <li class="micro pad-top-half push-right-half"><a href="pricing.html">PRICING</a></li>

@@ -16,9 +16,15 @@
 </head>
 
 <body>
-<header class="grid grid-middle unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 push">
-  <nav class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter">
-    <a href="index.html"><img src="images/blue-logo.svg" class="logo pad-t-1-2 pad-b-1-2" alt="#"></a>
+
+<ul class="skip-links">
+  <li><a href="#main">Jump to main content</a></li>
+  <li><a href="#nav">Jump to navigation</a></li>
+</ul>
+
+<header class="grid grid-middle unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 push" role="banner">
+  <nav class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter" role="navigation" id="nav">
+    <a href="index.html"><img src="images/blue-logo.svg" class="logo pad-t-1-2 pad-b-1-2" alt="on the run"></a>
 
     <ul class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 list-group--inline">
       <li class="micro push-right-half pad-top pad-bottom"><a href="tour.html">TOUR</a></li>
@@ -36,17 +42,17 @@
     </div>
   </div>
 </header>
-<main class="gutter push">
+<main class="gutter push" role="main" id="main">
     <div class="grid push">
       <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter-half">
         <div class="push embed embed--4by3">
-          <img class="embed__item" src="images/photo.jpg" alt="black and white photography">
+          <img class="embed__item" src="images/photo.jpg" alt="">
         </div>
         <p class="milli">We are an easy and organized task manager for creatives on the run. We provide solutions to your busy, on-the-go creative life.</p>
       </div>
       <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 gutter-half">
         <div class="push embed embed--4by3">
-          <img class="embed__item" src="images/run.jpg" alt="black and white city scene">
+          <img class="embed__item" src="images/run.jpg" alt="">
         </div>
         <p class="milli">On the Run is the to-do list we’ve been needing. Our program will help keep you on track with your daily tasks and help keep you alert during your busy day.</p>
       </div>
@@ -57,7 +63,7 @@
   </div>
 </main>
 <footer>
-  <nav class="gutter">
+  <nav class="gutter" role="navigation">
     <ul class="list-group--inline">
       <li class="micro pad-top push-right-half"><a href="tour.html">TOUR</a></li>
       <li class="micro pad-top-half push-right-half"><a href="pricing.html">PRICING</a></li>
