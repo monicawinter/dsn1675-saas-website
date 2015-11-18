@@ -120,6 +120,10 @@ h1 {
   color: #28B4E2;
 }
 
+.create {
+  text-align: center;
+}
+
 .otr {
   bottom: 79px;
   position: relative;
@@ -201,6 +205,7 @@ h2 {
 
 form {
   display: block;
+  margin: auto;
 }
 
 label {
