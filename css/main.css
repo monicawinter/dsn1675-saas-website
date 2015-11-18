@@ -174,6 +174,7 @@ h2 {
   border-style: solid;
   border-width: medium;
   text-align: center;
+  background-color: white;
 }
 
 .price2 {
@@ -186,6 +187,7 @@ h2 {
   border-style: solid;
   border-width: medium;
   text-align: center;
+  background-color: white;
 }
 
 .bold {
@@ -364,11 +366,15 @@ footer {
   }
 
   .header2 {
-    height: 500px;
+    height: 273px;
   }
 
   .otr {
     bottom: 125px;
+  }
+
+  .otr3 {
+    bottom: 278px;
   }
 
   .task {
@@ -379,7 +385,54 @@ footer {
     bottom: 116px;
   }
 
+  .price1 {
+    height: 670px;
+  }
+
+  .price2 {
+    max-height: 670px;
+  }
+
+  .price3 {
+    max-height: 670px;
+  }
+
 }
+
+
+@media only screen and (min-width: 43em) {
+
+  .price1 {
+    height: 585px;
+  }
+
+  .price2 {
+    max-height: 585px;
+  }
+
+  .price3 {
+    max-height: 585px;
+  }
+
+}
+
+
+@media only screen and (min-width: 49em) {
+
+  .price1 {
+    height: 500px;
+  }
+
+  .price2 {
+    max-height: 500px;
+  }
+
+  .price3 {
+    max-height: 500px;
+  }
+
+}
+
 
 @media only screen and (min-width: 56em) {
 
@@ -400,11 +453,15 @@ footer {
   }
 
   .header2 {
-    height: 670px;
+    height: 364px;
   }
 
   .otr {
     bottom: 191px;
+  }
+
+  .otr3 {
+    bottom: 370px;
   }
 
   .task {
@@ -413,6 +470,23 @@ footer {
 
   .buttoni {
     bottom: 155px;
+  }
+
+}
+
+
+@media only screen and (min-width: 66em) {
+
+  .price1 {
+    height: 460px;
+  }
+
+  .price2 {
+    max-height: 460px;
+  }
+
+  .price3 {
+    max-height: 460px;
   }
 
 }
