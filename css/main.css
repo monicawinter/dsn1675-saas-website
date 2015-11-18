@@ -156,6 +156,8 @@ h2 {
   color: white;
   margin: 0;
   text-align: center;
+  max-width: 20em;
+  margin: auto;
 }
 
 .buttoni {
@@ -167,6 +169,8 @@ h2 {
   background-color: #28B4E2;
   color: white;
   text-align: center;
+  max-width: 20em;
+  margin: auto;
 }
 
 .price1 {
