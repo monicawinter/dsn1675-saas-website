@@ -129,11 +129,13 @@ h1 {
   bottom: 148px;
   position: relative;
   color: #28B4E2;
+  text-shadow: 2px 2px black;
 }
 
 .otr3 {
   bottom: 139px;
   position: relative;
+  text-shadow: 2px 2px black;
 }
 
 p {
@@ -171,20 +173,50 @@ h2 {
   border-color: #B1B3B6;
   border-style: solid;
   border-width: medium;
+  text-align: center;
 }
 
 .price2 {
   background-color: #28B4E2;
+  text-align: center;
 }
 
 .price3 {
   border-color: #B1B3B6;
   border-style: solid;
   border-width: medium;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 300%;
+}
+
+form {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+input, select {
+  width: 15em;
+}
+
+.main1 {
+  top: 138px;
+  position: relative;
 }
 
 footer {
   text-align: center;
+}
+
+.footer1 {
+  position: relative;
+  bottom: -146px;
 }
 
 @media only screen and (min-width: 17em) {
@@ -243,6 +275,10 @@ footer {
 
   .header2 {
     height: 297px;
+  }
+
+  .main1 {
+    top: 112px;
   }
 
   .otr {
