@@ -89,6 +89,11 @@ a:hover {
     font-size: 110%;
 }
 
+.current {
+  background-color: #28B4E2;
+  padding: 0.6em;
+}
+
 .masthead {
   text-align: center;
   background-image: url("../images/blue-street.jpg");
