@@ -135,6 +135,7 @@ h1 {
 
 .create {
   text-align: center;
+
 }
 
 .otr {
@@ -226,8 +227,8 @@ label {
   display: block;
 }
 
-input, select {
-  width: 15em;
+input {
+  width: 100%;
 }
 
 .main1 {

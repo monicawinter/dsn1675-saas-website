@@ -18,6 +18,8 @@
 
 <body>
 
+<form action="https://formspree.io/wint0090@algonquinlive.com" method="post">
+
   <ul class="skip-links">
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
@@ -36,45 +38,47 @@
 </header>
 <main class="main1 push" role="main" id="main">
 
-  <h1 class="blue create push">CREATE YOUR ON THE RUN ACCOUNT</h1>
+<div class="grid gutter">
+  <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+    <h1 class="blue create push">CREATE YOUR ON THE RUN ACCOUNT</h1>
+  </div>
 
   <form action="thanks.html" method="post">
-    <div class="grid gutter">
-      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
         <div class="pad-b-1-2">
-          <label for="first">First Name</label>
-          <input type="text" id="first">
+          <label for="first-name">First Name</label>
+          <input type="text" name="name" id="first-name" required>
         </div>
         <div class="pad-b-1-2">
-          <label for="last">Last Name</label>
-          <input type="text" id="last">
+          <label for="last-name">Last Name</label>
+          <input type="text" name="lastname" id="last-name">
         </div>
         <div class="pad-b-1-2">
           <label for="email">Email</label>
-          <input type="email" id="email">
+          <input type="email" name="email" id="email" placeholder="name@email.com" required>
         </div>
         <div class="pad-b-1-2">
-          <label for="user">Username</label>
-          <input type="text" id="user">
+          <label for="username">Username</label>
+          <input type="text" name="user" id="username" required>
         </div>
         <div class="pad-b-1-2">
-          <label for="pass">Password</label>
-          <input type="password" id="pass">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" required>
         </div>
         <div class="pad-b-1-2">
           <label for="confirm">Confirm Password</label>
-          <input type="password" id="confirm">
+          <input type="password" name="confirm" id="confirm">
         </div>
 
         <h2 class="pad-t pad-b-1-2">Billing Information</h2>
 
         <div class="pad-b-1-2">
           <label for="card">Credit Card Number</label>
-          <input text="numbers" id="card">
+          <input text="numbers" name="card" id="card">
         </div>
         <div class="pad-b-1-2">
           <label for="payment">Payment Type</label>
-          <select id="payment">
+          <select id="payment" name="_subject">
             <option>Visa</option>
             <option>Mastercard</option>
             <option>American Express</option>
@@ -90,9 +94,10 @@
         <div>
           <button type="submit" class="button2 gutter-double pad-t-1-2 pad-b-1-2">GET STARTED</button>
         </div>
+        <input type="hidden" name="_next" value="https://monicawinter.github.io/dsn1675-saas-website">
       </div>
-    </div>
   </form>
+</div>
 </main>
 <footer class="footer1">
   <nav class="gutter" role="navigation">
