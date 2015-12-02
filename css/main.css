@@ -364,6 +364,11 @@ footer {
     bottom: 96px;
   }
 
+  .pad-l-r {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
 }
 
 
@@ -430,6 +435,11 @@ footer {
     max-height: 670px;
   }
 
+  .pad-l-r {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
 }
 
 
@@ -445,6 +455,11 @@ footer {
 
   .price3 {
     max-height: 585px;
+  }
+
+  .pad-l-r {
+    padding-left: 8em;
+    padding-right: 8em;
   }
 
 }
@@ -505,6 +520,11 @@ footer {
     bottom: 155px;
   }
 
+  .pad-l-r {
+    padding-left: 15em;
+    padding-right: 15em;
+  }
+
 }
 
 
@@ -520,6 +540,11 @@ footer {
 
   .price3 {
     max-height: 460px;
+  }
+
+  .pad-l-r {
+    padding-left: 18em;
+    padding-right: 18em;
   }
 
 }
