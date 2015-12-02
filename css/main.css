@@ -236,6 +236,15 @@ input {
   position: relative;
 }
 
+.maint {
+  background-color: #28B4E2;
+}
+
+.thank-you {
+  text-align: center;
+  color: black;
+}
+
 footer {
   text-align: center;
 }
