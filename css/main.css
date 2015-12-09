@@ -124,6 +124,20 @@ a:hover {
   background-color: #28B4E2;
 }
 
+.masthead4 {
+  text-align: center;
+  background-image: url("../images/blue-street2.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 16em;
+  background-color: black;
+}
+
+.header3 {
+  margin: 0;
+}
+
 h1 {
   margin: 0;
   color: white;
@@ -152,6 +166,12 @@ h1 {
 }
 
 .otr3 {
+  bottom: 139px;
+  position: relative;
+  text-shadow: 2px 2px black;
+}
+
+.otrt {
   bottom: 139px;
   position: relative;
   text-shadow: 2px 2px black;
@@ -240,15 +260,6 @@ input {
   position: relative;
 }
 
-.maint {
-  background-color: #28B4E2;
-}
-
-.thank-you {
-  text-align: center;
-  color: black;
-}
-
 footer {
   text-align: center;
 }
@@ -272,6 +283,10 @@ footer {
     padding-top: 18.5em;
   }
 
+  .masthead4 {
+    padding-top: 16.75em;
+  }
+
   .header1 {
     height: 272px;
   }
@@ -282,6 +297,10 @@ footer {
 
   .otr {
     bottom: 88px;
+  }
+
+  .otrt {
+    bottom: 143px;
   }
 
   .task {
@@ -308,6 +327,10 @@ footer {
     padding-top: 19em;
   }
 
+  .masthead4 {
+    padding-top: 17em;
+  }
+
   .header1 {
     height: 297px;
   }
@@ -322,6 +345,10 @@ footer {
 
   .otr {
     bottom: 88px;
+  }
+
+  .otrt {
+    bottom: 136px;
   }
 
   .task {
@@ -348,6 +375,10 @@ footer {
     padding-top: 21em;
   }
 
+  .masthead4 {
+    padding-top: 20em;
+  }
+
   .header1 {
     height: 332px;
   }
@@ -358,6 +389,10 @@ footer {
 
   .otr {
     bottom: 100px;
+  }
+
+  .otrt {
+    bottom: 156px;
   }
 
   .task {
@@ -386,6 +421,10 @@ footer {
     height: 357px;
   }
 
+  .otrt {
+    bottom: 152px;
+  }
+
 }
 
 
@@ -403,6 +442,10 @@ footer {
     padding-top: 25.5em;
   }
 
+  .masthead4 {
+    padding-top: 23em;
+  }
+
   .header1 {
     height: 500px;
   }
@@ -417,6 +460,10 @@ footer {
 
   .otr3 {
     bottom: 278px;
+  }
+
+  .otrt {
+    bottom: 194px;
   }
 
   .task {
@@ -466,6 +513,10 @@ footer {
     padding-right: 8em;
   }
 
+  .otrt {
+    bottom: 188px;
+  }
+
 }
 
 
@@ -481,6 +532,10 @@ footer {
 
   .price3 {
     max-height: 500px;
+  }
+
+  .otrt {
+    bottom: 180px;
   }
 
 }
@@ -500,6 +555,10 @@ footer {
     padding-top: 34.5em;
   }
 
+  .masthead4 {
+    padding-top: 33em;
+  }
+
   .header1 {
     height: 670px;
   }
@@ -514,6 +573,10 @@ footer {
 
   .otr3 {
     bottom: 370px;
+  }
+
+  .otrt {
+    bottom: 260px;
   }
 
   .task {
@@ -549,6 +612,10 @@ footer {
   .pad-l-r {
     padding-left: 18em;
     padding-right: 18em;
+  }
+
+  .otrt {
+    bottom: 246px;
   }
 
 }
